@@ -1,0 +1,94 @@
+body{ 
+     background-color:#315365;
+} 
+aside{
+    float:left;
+    background-color: #2D3742;
+    width:20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #E5EEEA; 
+    border-right: 5px solid #2D3742;
+}
+
+
+aside h3{
+    
+    font-size: 40px;
+     
+}
+ 
+aside ul{
+    list-style: none;
+    margin-left: -30px;
+}
+aside ul li{
+    color:#E5EEEA;
+    display: block;
+    margin-top: 30px;
+    transition: trasform .6s ease;
+
+}
+
+aside ul li:hover, aside a li:hover{
+    color:#E5EEEA;
+    text-decoration: none;
+    transform: scale(1.15);
+
+     
+}
+
+
+main .features{
+    float: left;
+    margin-top: 30px;
+    color: #E5EEEA;
+    text-align: center;
+    width: 75%;
+}
+
+main .features h1{
+    font-size:  50px;
+    margin-left: 100px;
+}
+main .features p{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-left: 70px;
+    text-align:left;
+     
+}
+main .features button{
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+main .features img{
+    margin-left: 40px;
+}
+
+form {
+    margin-left: 32%;
+    width:500px;
+    margin-top: 50px;
+}
+
+div.alert.alert-warning{
+    margin-left: 100px;
+    margin-top:40px;
+    background-color:#E5EEEA;
+    color:#315365;
+    --bs-alert-border-color: #E5EEEA;
+
+}
+
+main .anons p{
+    text-align:center;
+    
+}
+main .anons h3{
+    text-align:center;
+    
+    
+}
+
